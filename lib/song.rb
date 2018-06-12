@@ -1,5 +1,5 @@
 require 'pry'
-require_relative
+require_relative "../lib/concerns/memorable.rb"
 extend Memorable
 class Song
   attr_accessor :name
