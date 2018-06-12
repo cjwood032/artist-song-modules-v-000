@@ -1,5 +1,5 @@
 require 'pry'
-require rel
+require_relative
 extend Memorable
 class Song
   attr_accessor :name
